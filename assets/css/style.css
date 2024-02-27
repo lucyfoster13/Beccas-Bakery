@@ -35,7 +35,11 @@ header {
 header a {
     text-decoration: none;
     color: inherit;
-} 
+}
+
+header i {
+    font-size: 90%;
+}
 
 h1 {
     font-family: "Oswald", sans-serif;
@@ -53,14 +57,13 @@ h1 {
 
 }
 
-#menu > li {
+#menu>li {
     margin-bottom: 1em;
 }
 
 .active {
     border-bottom: 1px solid #F8F0E3;
 }
-
 
 /*Navbar styles with dropdown toggle*/
 nav {
@@ -96,22 +99,27 @@ main {
     margin-top: 43px;
 }
 
-
-
-
-
 /*Footer*/
-footer {
-    background-color: #104930;
-    color: #F8F0E3;
+#socials {
+    text-align: center;
+    padding: 20px 0;
     display: flex;
-   
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#socials i {
+    font-size: 160%;
+    padding: 5%;
+    color: #447A5E;
+
 }
 
 /*Media query: tablets and larger (768px and up)*/
 @media screen and (min-width: 768px) {
+
     /*Header*/
-    nav{
+    nav {
         display: block;
         position: relative;
         box-shadow: none;
@@ -123,7 +131,7 @@ footer {
         display: flex;
     }
 
-    #menu > li {
+    #menu>li {
         padding-left: 1rem;
     }
 
@@ -145,10 +153,11 @@ footer {
 
 /*Media query laptops and larger (992px and up)*/
 @media screen and (min-width: 992px) {
+
     /*Header*/
     #menu a:hover {
         border-bottom: 1px solid #F8F0E3;
 
     }
-    
+
 }
