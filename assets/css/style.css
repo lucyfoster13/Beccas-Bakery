@@ -42,6 +42,7 @@ h1 {
     text-transform: uppercase;
     letter-spacing: 2px;
     color: #CFFBE2;
+    font-size: 180%;
 
 }
 
@@ -91,6 +92,7 @@ main {
     background-color: #CFFBE2;
     /*Make main element take up any surplus space to push footer down*/
     flex: 1 0 auto;
+    margin-top: 43px;
 }
 
 
