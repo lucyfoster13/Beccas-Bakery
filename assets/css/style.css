@@ -1,0 +1,25 @@
+/*Wildcard selector - general rules to override deafault browser styles*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/*Header*/
+header {
+    background-color: #447A5E;
+    color: #F8F0E3;
+}
+
+/*Main Content*/
+main {
+    background-color: #CFFBE2;
+}
+
+
+/*Footer*/
+footer {
+    background-color: #104930;
+    color: #F8F0E3;
+}
