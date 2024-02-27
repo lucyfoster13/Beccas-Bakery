@@ -42,7 +42,7 @@ h1 {
     text-transform: uppercase;
     letter-spacing: 2px;
     color: #CFFBE2;
-    font-size: 180%;
+    font-size: 170%;
 
 }
 
@@ -60,6 +60,7 @@ h1 {
 .active {
     border-bottom: 1px solid #F8F0E3;
 }
+
 
 /*Navbar styles with dropdown toggle*/
 nav {
@@ -104,6 +105,7 @@ footer {
     background-color: #104930;
     color: #F8F0E3;
     display: flex;
+   
 }
 
 /*Media query: tablets and larger (768px and up)*/
